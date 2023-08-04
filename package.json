@@ -10,5 +10,8 @@
     "Giusp"
   ],
   "author": "Giusp",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/Giusp37/first-node-project"
+  }
 }
