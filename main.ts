@@ -14,9 +14,11 @@ const random = (min: number, max: number): number => {
     return Math.random() * (max-min)+ min;
 }
 
-console.log(greeting('Giuseppe', 'it'));
-console.log(greeting('Joseph', 'en'));
-console.log(greeting('Pablo', 'es'));
-console.log(greeting('Marco'));
+const numbers: number[] =[1,2,3,4,5]
 
-console.log('random number between 1 and 10', random(1,10));
+const squareNumbers= numbers.map((n) => n*n);
+const oddNumbers= numbers.filter((n) => n%2 !=0);
+
+console.log(numbers);
+console.log(squareNumbers);
+console.log(oddNumbers);

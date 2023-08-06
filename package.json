@@ -13,5 +13,8 @@
   "license": "ISC",
   "repository": {
     "url": "https://github.com/Giusp37/first-node-project"
+  },
+  "dependencies": {
+    "faker": "^6.6.6"
   }
 }
